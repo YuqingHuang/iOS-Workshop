@@ -18,6 +18,8 @@ class ViewController: UIViewController, ARSCNViewDelegate, SCNPhysicsContactDele
     
     @IBOutlet weak var scoreLabel: UILabel!
     
+    @IBOutlet weak var welcomeLabel: UILabel!
+    
     var player: AVAudioPlayer!
     
     @IBAction func prepareForUnwind(segue: UIStoryboardSegue) {
@@ -52,6 +54,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, SCNPhysicsContactDele
         self.addNewShip()
         
         self.userScore = 0
+        self.welcomeLabel.text = "Hello " + UserDefaults.standard.string(forKey: "username")!
     }
     
     override func viewWillAppear(_ animated: Bool) {

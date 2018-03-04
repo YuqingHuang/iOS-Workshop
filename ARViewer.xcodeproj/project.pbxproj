@@ -19,6 +19,7 @@
 		06DFA2B61F096CBA0009A530 /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06DFA2B31F0968BD0009A530 /* torpedo.mp3 */; };
 		06FA0DB61EE7628F0051FC68 /* Ship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FA0DB51EE7628F0051FC68 /* Ship.swift */; };
 		06FA0DB81EE763F50051FC68 /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FA0DB71EE763F50051FC68 /* Bullet.swift */; };
+		970994E0204C55C400BB5D77 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970994DF204C55C400BB5D77 /* LoginViewController.swift */; };
 		978A475B2046BA9B00E152FC /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978A475A2046BA9B00E152FC /* ListViewController.swift */; };
 		978A475D2046F1FE00E152FC /* BulletCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978A475C2046F1FE00E152FC /* BulletCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		06DFA2B31F0968BD0009A530 /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torpedo.mp3; sourceTree = "<group>"; };
 		06FA0DB51EE7628F0051FC68 /* Ship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ship.swift; sourceTree = "<group>"; };
 		06FA0DB71EE763F50051FC68 /* Bullet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bullet.swift; sourceTree = "<group>"; };
+		970994DF204C55C400BB5D77 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		978A475A2046BA9B00E152FC /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		978A475C2046F1FE00E152FC /* BulletCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulletCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,7 +80,6 @@
 				978A47562046A7B100E152FC /* Model */,
 				06C51BE71EE68B41006AC09A /* AppDelegate.swift */,
 				06C51BF01EE68B41006AC09A /* Assets.xcassets */,
-				06C51BF21EE68B41006AC09A /* LaunchScreen.storyboard */,
 				06C51BF51EE68B41006AC09A /* Info.plist */,
 			);
 			path = ARViewer;
@@ -97,9 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				06C51BEB1EE68B41006AC09A /* ViewController.swift */,
+				06C51BF21EE68B41006AC09A /* LaunchScreen.storyboard */,
 				06C51BED1EE68B41006AC09A /* Main.storyboard */,
 				978A475A2046BA9B00E152FC /* ListViewController.swift */,
 				978A475C2046F1FE00E152FC /* BulletCellTableViewCell.swift */,
+				970994DF204C55C400BB5D77 /* LoginViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				970994E0204C55C400BB5D77 /* LoginViewController.swift in Sources */,
 				06C51BEC1EE68B41006AC09A /* ViewController.swift in Sources */,
 				06FA0DB61EE7628F0051FC68 /* Ship.swift in Sources */,
 				06C51BE81EE68B41006AC09A /* AppDelegate.swift in Sources */,
